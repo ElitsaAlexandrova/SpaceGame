@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Lazer_Guns" ID="{31D29BEE-AE1F-4528-A5BA-2EAD0C242230}" ShortID="490702210">
+					<ChildrenList>
+						<Event Name="Play_LazerGuns_Single_Shot" ID="{89B25312-BE27-49D6-A77D-A477B6BCEFB0}">
+							<ChildrenList>
+								<Action Name="" ID="{E4398627-E571-427A-A7E7-1908B64CFC6F}" ShortID="388171666">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LazerGuns_Single_Shot" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" WorkUnitID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

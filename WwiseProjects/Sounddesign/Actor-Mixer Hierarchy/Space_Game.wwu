@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}" SchemaVersion="85" RootDocumentID="{39B3659C-62ED-4842-8160-4A3CB11495BD}">
+	<AudioObjects>
+		<WorkUnit Name="Space_Game" ID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}" OwnerID="{39B3659C-62ED-4842-8160-4A3CB11495BD}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="LazerGuns" ID="{694EF09E-D226-4C32-8893-FE0181A661F6}" ShortID="355555365">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="LazerGuns_Single_Shot" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" ShortID="321137541">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{03AE71D3-6927-455A-AA6F-0360CEE38111}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="682"/>
+													<Property Name="Min" Type="Real64" Value="-328"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lazer_Weapon_Single_Shot_01" ID="{46D739F0-9520-414E-83F0-170930C11934}" ShortID="133586285">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_01" ID="{999A6C27-1403-4371-919A-C6B5D9091989}" ShortID="43618380">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_01" ID="{999A6C27-1403-4371-919A-C6B5D9091989}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_02" ID="{549F4B1B-3814-4055-8AFD-262BD2928399}" ShortID="701960301">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_02" ID="{20C79E03-4099-447F-8575-31D36AF1671A}" ShortID="1064939705">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_02" ID="{20C79E03-4099-447F-8575-31D36AF1671A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_03" ID="{496CA355-F11F-427E-B53C-49015E171570}" ShortID="492566777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_03" ID="{97B6C8F2-C680-4482-97A2-D554878CAC08}" ShortID="560109957">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_03" ID="{97B6C8F2-C680-4482-97A2-D554878CAC08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_04" ID="{15F92A23-3229-4FF2-B353-F62298A18E3A}" ShortID="677946181">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_04" ID="{6E2516A7-B549-4E9A-9A1B-5898F5202F4D}" ShortID="547680650">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_04" ID="{6E2516A7-B549-4E9A-9A1B-5898F5202F4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_05" ID="{068516A9-91F0-40F2-8432-01A9B7813B46}" ShortID="575947398">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_05" ID="{B1450277-D4AF-4974-A1C9-CBD347688783}" ShortID="143976611">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_05" ID="{B1450277-D4AF-4974-A1C9-CBD347688783}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_06" ID="{1CB5FE07-CFAD-4C9E-895B-76D6E8BA3E65}" ShortID="376841260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_06" ID="{CEB4A9CB-2753-489E-84B9-6A86B0765931}" ShortID="137523976">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_06" ID="{CEB4A9CB-2753-489E-84B9-6A86B0765931}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_07" ID="{7CF262BF-FC17-4948-A0D2-A817107BCF90}" ShortID="939725004">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_07" ID="{EECD7893-D9C1-442D-9352-AA510D592EEB}" ShortID="1020159293">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_07" ID="{EECD7893-D9C1-442D-9352-AA510D592EEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lazer_Weapon_Single_Shot_08" ID="{A409E9C5-AA92-4FD4-989D-BBD123F7FF52}" ShortID="628349432">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lazer_Weapon_Single_Shot_08" ID="{CA1E018E-610A-4471-8EE7-50A996B8372A}" ShortID="581823310">
+											<Language>SFX</Language>
+											<AudioFile>Lazer_Weapon_Single_Shot_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lazer_Weapon_Single_Shot_08" ID="{CA1E018E-610A-4471-8EE7-50A996B8372A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="LazerGuns_Multi_Shots" ID="{CC7AED15-31D2-4926-B727-1E428D564B7A}" ShortID="207635294">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

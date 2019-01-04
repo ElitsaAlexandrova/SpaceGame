@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB0DB702-11B3-4E8C-BD24-22E3A797E558}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BB0DB702-11B3-4E8C-BD24-22E3A797E558}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Lazer_Guns" ID="{1F954219-D3E2-44C7-98E0-FFF22454215A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Lazer_Guns" ID="{31D29BEE-AE1F-4528-A5BA-2EAD0C242230}" WorkUnitID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

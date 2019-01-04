@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{C79619A9-4C0F-44F1-BB28-77D3214A7D7D}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="4221927926" Timestamp="1545213693"/>
+				<File Name="Lazer_Guns" Hash="1903497474" Timestamp="1545213728"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="4144035793" Timestamp="1545213728"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>
