@@ -41,6 +41,11 @@
 						<RandomSequenceContainer Name="LazerGuns_Multi_Shots" ID="{4077AA7E-E085-443F-88A5-BF6379E3CE29}" ShortID="563122897">
 							<PropertyList>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
