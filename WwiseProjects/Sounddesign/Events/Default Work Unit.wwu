@@ -5,21 +5,21 @@
 			<ChildrenList>
 				<Folder Name="Lazer_Guns" ID="{31D29BEE-AE1F-4528-A5BA-2EAD0C242230}" ShortID="490702210">
 					<ChildrenList>
-						<Event Name="Play_LazerGuns_Single_Shot" ID="{89B25312-BE27-49D6-A77D-A477B6BCEFB0}">
+						<Event Name="Play_Laserguns_Multi_Shots" ID="{AECB8758-6A44-4582-9A1F-B2AEAF4371AD}"/>
+						<Event Name="Play_LazerGuns_Single_Shot_01" ID="{55D6C290-F4B6-418E-9379-B579C593BF66}">
 							<ChildrenList>
-								<Action Name="" ID="{E4398627-E571-427A-A7E7-1908B64CFC6F}" ShortID="388171666">
+								<Action Name="" ID="{110F8A54-5F00-4643-BE4F-13F28D20EADC}" ShortID="381356964">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="LazerGuns_Single_Shot" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" WorkUnitID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}"/>
+											<ObjectRef Name="LazerGuns_Single_Shot_01" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" WorkUnitID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Laserguns_Multi_Shots" ID="{AECB8758-6A44-4582-9A1F-B2AEAF4371AD}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
