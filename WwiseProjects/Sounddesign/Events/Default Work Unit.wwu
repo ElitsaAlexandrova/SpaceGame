@@ -19,6 +19,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Laserguns_Multi_Shots" ID="{AECB8758-6A44-4582-9A1F-B2AEAF4371AD}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
