@@ -14,7 +14,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="LazerGuns_Single_Shot_01" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" WorkUnitID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}"/>
+											<ObjectRef Name="LazerGuns_Single_Shot_01" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

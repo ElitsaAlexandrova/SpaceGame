@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2D4130C-841D-4B66-B6D4-535B2619230C}" SchemaVersion="85" RootDocumentID="{39B3659C-62ED-4842-8160-4A3CB11495BD}">
+	<AudioObjects>
+		<WorkUnit Name="LazerGuns_SingleShot_02" ID="{D2D4130C-841D-4B66-B6D4-535B2619230C}" OwnerID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="LazerGuns_SingleShot_02" ID="{BCD52886-38A2-4B77-8FDD-5B7BAEA64EC9}" ShortID="67717883">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
