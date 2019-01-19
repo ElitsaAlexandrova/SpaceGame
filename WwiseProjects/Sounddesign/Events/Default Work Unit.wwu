@@ -22,6 +22,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_LaserGuns" ID="{F4333C4B-0CA6-43FA-B0C5-1FFBC625E554}">
+					<ChildrenList>
+						<Action Name="" ID="{82A0FD61-EDDE-4E51-A350-98FDEA5FC23F}" ShortID="761251219">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserGuns" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

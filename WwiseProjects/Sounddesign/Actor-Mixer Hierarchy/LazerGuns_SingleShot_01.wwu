@@ -3,22 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="LazerGuns_SingleShot_01" ID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}" OwnerID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}" PersistMode="Nested">
 			<ChildrenList>
-				<RandomSequenceContainer Name="LazerGuns_Single_Shot_01" ID="{E6F4577A-AEF4-470F-9A1A-2AD45D9D94BC}" ShortID="321137541">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{03AE71D3-6927-455A-AA6F-0360CEE38111}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="682"/>
-											<Property Name="Min" Type="Real64" Value="-328"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
+				<ActorMixer Name="LaserGuns_SingleShot_01" ID="{FB653028-F81A-4B24-8E89-E09A1973DBDA}" ShortID="602355655">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
@@ -28,7 +13,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Laser_01" ID="{0C790EAA-5522-4D9A-8DFC-339EB8742B58}" ShortID="1054923220">
+						<RandomSequenceContainer Name="LaserGuns" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" ShortID="781091370">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
@@ -38,17 +28,86 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Laser_01" ID="{95785B9F-F404-4957-B8B3-C79BCF0B8DDE}" ShortID="852083724">
-									<Language>SFX</Language>
-									<AudioFile>LaserGunsSingleShot_01\Laser_01.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="Laser_01" ID="{48C13A09-4FEB-464F-BF78-DF5FAA8BE296}" ShortID="812953311">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1" ID="{B21A41C5-45FE-4260-8996-B20415E9486B}" ShortID="731284179">
+											<Language>SFX</Language>
+											<AudioFile>1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="1" ID="{B21A41C5-45FE-4260-8996-B20415E9486B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_02" ID="{8FA45417-56FC-4BD3-933E-A4CD12CA9BD0}" ShortID="915028005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="2" ID="{CD21F386-155A-424D-A0EC-38F85EB655C4}" ShortID="325771014">
+											<Language>SFX</Language>
+											<AudioFile>2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="2" ID="{CD21F386-155A-424D-A0EC-38F85EB655C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_03" ID="{60B03CC0-71C7-48D6-BD44-B7ECD2593E59}" ShortID="717286938">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3" ID="{94E263E0-DD87-4C7D-B1F8-9FCB9158782C}" ShortID="811431803">
+											<Language>SFX</Language>
+											<AudioFile>3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="3" ID="{94E263E0-DD87-4C7D-B1F8-9FCB9158782C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_04" ID="{B7BE3C04-0CBE-4664-BA88-318A25443E11}" ShortID="420898507">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="4" ID="{3F98B4D6-BFAE-47C6-A09C-04BC41C33B9E}" ShortID="717691807">
+											<Language>SFX</Language>
+											<AudioFile>4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="4" ID="{3F98B4D6-BFAE-47C6-A09C-04BC41C33B9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Laser_01" ID="{95785B9F-F404-4957-B8B3-C79BCF0B8DDE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
-				</RandomSequenceContainer>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
