@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Elitsa.Yovcheva\Documents\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Elitsa.Yovcheva\Documents\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Elitsa.Yovcheva\Documents\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\_____Recent Projects\5.12.SFX_SpaceGame\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>E:\_____Recent Projects\5.12.SFX_SpaceGame\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_____Recent Projects\5.12.SFX_SpaceGame\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Elitsa.Yovcheva\Documents\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\_____Recent Projects\5.12.SFX_SpaceGame\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,40 +21,46 @@
 			<ShortName>Lazer_Guns</ShortName>
 			<Path>Lazer_Guns.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3113408393" Name="Play_LazerGuns_Single_Shot" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_LazerGuns_Single_Shot"/>
+				<Event Id="2813736502" Name="Play_Laserguns_Multi_Shots" ObjectPath="\Events\Default Work Unit\Lazer_Guns\LaserGuns_Multi_Shots\Play_Laserguns_Multi_Shots"/>
+				<Event Id="3297046901" Name="Play_LazerGuns_Single_Shot_01" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_LazerGuns_Single_Shot_01"/>
+				<Event Id="2921612768" Name="Stop_Laserguns_Multi_Shots" ObjectPath="\Events\Default Work Unit\Lazer_Guns\LaserGuns_Multi_Shots\Stop_Laserguns_Multi_Shots"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="43618380" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_01.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_01_D35BE926.wem</Path>
+				<File Id="132200509" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_07.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_07_D35BE926.wem</Path>
 				</File>
-				<File Id="137523976" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_06.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_06_D35BE926.wem</Path>
+				<File Id="209890500" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_03.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_03_D35BE926.wem</Path>
 				</File>
-				<File Id="143976611" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_05.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_05_D35BE926.wem</Path>
+				<File Id="377697797" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shots_STOP.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shots_STOP_D35BE926.wem</Path>
 				</File>
-				<File Id="547680650" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_04.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_04_D35BE926.wem</Path>
+				<File Id="464830610" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_02.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_02_D35BE926.wem</Path>
 				</File>
-				<File Id="560109957" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_03.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_03_D35BE926.wem</Path>
+				<File Id="475104398" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_01.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_01_D35BE926.wem</Path>
 				</File>
-				<File Id="581823310" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_08.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_08_D35BE926.wem</Path>
+				<File Id="655460438" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_04.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_04_D35BE926.wem</Path>
 				</File>
-				<File Id="1020159293" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_07.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_07_D35BE926.wem</Path>
+				<File Id="747290661" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_06.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_06_D35BE926.wem</Path>
 				</File>
-				<File Id="1064939705" Language="SFX">
-					<ShortName>Lazer_Weapon_Single_Shot_02.wav</ShortName>
-					<Path>SFX\Lazer_Weapon_Single_Shot_02_D35BE926.wem</Path>
+				<File Id="817387288" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_08.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_08_D35BE926.wem</Path>
+				</File>
+				<File Id="1038186181" Language="SFX">
+					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_05.wav</ShortName>
+					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_05_D35BE926.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

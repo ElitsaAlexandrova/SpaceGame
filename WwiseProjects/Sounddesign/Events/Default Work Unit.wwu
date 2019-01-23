@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<Folder Name="Lazer_Guns" ID="{31D29BEE-AE1F-4528-A5BA-2EAD0C242230}" ShortID="490702210">
 					<ChildrenList>
-						<Event Name="Play_Laserguns_Multi_Shots" ID="{AECB8758-6A44-4582-9A1F-B2AEAF4371AD}"/>
 						<Event Name="Play_LazerGuns_Single_Shot_01" ID="{55D6C290-F4B6-418E-9379-B579C593BF66}">
 							<ChildrenList>
 								<Action Name="" ID="{110F8A54-5F00-4643-BE4F-13F28D20EADC}" ShortID="381356964">
@@ -20,6 +19,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<WorkUnit Name="LaserGuns_Multi_Shots" ID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" PersistMode="Reference"/>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_LaserGuns" ID="{F4333C4B-0CA6-43FA-B0C5-1FFBC625E554}">
