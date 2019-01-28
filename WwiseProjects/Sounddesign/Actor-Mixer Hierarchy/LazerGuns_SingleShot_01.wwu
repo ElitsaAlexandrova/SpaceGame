@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="LaserGuns" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" ShortID="781091370">
+						<RandomSequenceContainer Name="LaserGuns_SingleShot_01" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" ShortID="781091370">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
