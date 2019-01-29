@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="LaserGuns_SingleShot_01" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" ShortID="781091370">
+						<RandomSequenceContainer Name="LaserGuns_SingleShot_Slow" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" ShortID="781091370">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -39,6 +39,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="1" ID="{B21A41C5-45FE-4260-8996-B20415E9486B}" ShortID="731284179">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.447159040178571"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>1.wav</AudioFile>
 										</AudioFileSource>
@@ -58,6 +61,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="2" ID="{CD21F386-155A-424D-A0EC-38F85EB655C4}" ShortID="325771014">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.44862451171875"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>2.wav</AudioFile>
 										</AudioFileSource>
@@ -77,6 +83,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="3" ID="{94E263E0-DD87-4C7D-B1F8-9FCB9158782C}" ShortID="811431803">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.514930664062501"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>3.wav</AudioFile>
 										</AudioFileSource>
@@ -96,12 +105,256 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="4" ID="{3F98B4D6-BFAE-47C6-A09C-04BC41C33B9E}" ShortID="717691807">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.531243884858631"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="4" ID="{3F98B4D6-BFAE-47C6-A09C-04BC41C33B9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="LaserGuns_SingleShot_Med" ID="{99490966-F7AC-432F-83EC-407E168A10E6}" ShortID="971847753">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Laser_04" ID="{1B76EB7D-93F1-4CF8-8B57-990EDEA71A07}" ShortID="90022952">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="4" ID="{EA709A85-0AE7-444E-A3DE-1385B25ABAAC}" ShortID="269991564">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.254797223772321"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="4" ID="{EA709A85-0AE7-444E-A3DE-1385B25ABAAC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_02" ID="{CA0583BD-AEBB-4890-A168-7A481C40DFDF}" ShortID="968186359">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="2" ID="{FC675035-B097-460B-8D21-57268E92ADB8}" ShortID="868756267">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.197889508928572"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="2" ID="{FC675035-B097-460B-8D21-57268E92ADB8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_03" ID="{35782A89-6D7D-43F1-9A85-B85225737613}" ShortID="648849501">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3" ID="{801C0CF8-3C7F-43D7-91B1-F99C0BC9A14C}" ShortID="196996465">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.260830891927084"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="3" ID="{801C0CF8-3C7F-43D7-91B1-F99C0BC9A14C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_01" ID="{58834FC1-E627-4E0F-B564-CCA168FB5358}" ShortID="355026405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1" ID="{C3A3A93D-4BC4-4223-8AA8-0EC939FB96F8}" ShortID="469081662">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.1691953125"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="1" ID="{C3A3A93D-4BC4-4223-8AA8-0EC939FB96F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="LaserGuns_SingleShot_Fast" ID="{4DE56903-0C6D-4EE3-B011-478F3AF6800E}" ShortID="194485348">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Laser_04" ID="{68A9B9F0-D588-4C34-9E50-CF6BAA6F40E0}" ShortID="444645245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="4" ID="{EAF6D2B4-F69F-4EB9-A2A8-88BA85E07BFC}" ShortID="861336501">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.154876743861607"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="4" ID="{EAF6D2B4-F69F-4EB9-A2A8-88BA85E07BFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_02" ID="{CE351F24-93D0-4168-A08D-6EA00B428DB0}" ShortID="371222402">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="2" ID="{8BE2A1E2-145A-4915-B054-EA3C3CE82A7F}" ShortID="18763452">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.13380029296875"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="2" ID="{8BE2A1E2-145A-4915-B054-EA3C3CE82A7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_03" ID="{39AEFA44-8452-4DAE-B997-E4920E8084BF}" ShortID="238766353">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3" ID="{D65C871F-4A6D-4FCB-B989-CC2A4B3DA17F}" ShortID="794143427">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.190154134114583"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="3" ID="{D65C871F-4A6D-4FCB-B989-CC2A4B3DA17F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Laser_01" ID="{78B8F9FE-3D51-49D7-B065-F07DD3EDDBAD}" ShortID="497351541">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1" ID="{199E18FD-D122-4D72-B1B9-AE103FB5952A}" ShortID="166491134">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.129917829241071"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="1" ID="{199E18FD-D122-4D72-B1B9-AE103FB5952A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="LaserGun_Burst" ID="{7439A60D-85E6-4092-A29C-3A42BBCEE029}" ShortID="409719674">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Laser_04" ID="{14579178-4CCD-4826-96DD-68854D18EEBE}" ShortID="442484297">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="4" ID="{28931A2C-5BE6-46C7-9458-F5C397808CE6}" ShortID="416369252">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.10491650390625"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="4" ID="{28931A2C-5BE6-46C7-9458-F5C397808CE6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\1.Old_Computer\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>D:\1.Old_Computer\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\1.Old_Computer\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\1.Old_Computer\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -20,65 +20,6 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Lazer_Guns</ObjectPath>
 			<ShortName>Lazer_Guns</ShortName>
 			<Path>Lazer_Guns.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2813736502" Name="Play_Laserguns_Multi_Shots" ObjectPath="\Events\Default Work Unit\Lazer_Guns\LaserGuns_Multi_Shots\Play_Laserguns_Multi_Shots"/>
-				<Event Id="3466763225" Name="Play_LaserGuns_SingleShot_01" ObjectPath="\Events\Default Work Unit\Lazer_Guns\LaserGuns_Multi_Shots\Play_LaserGuns_SingleShot_01"/>
-				<Event Id="2921612768" Name="Stop_Laserguns_Multi_Shots" ObjectPath="\Events\Default Work Unit\Lazer_Guns\LaserGuns_Multi_Shots\Stop_Laserguns_Multi_Shots"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="132200509" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_07.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_07_D35BE926.wem</Path>
-				</File>
-				<File Id="209890500" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_03.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_03_D35BE926.wem</Path>
-				</File>
-				<File Id="325771014" Language="SFX">
-					<ShortName>2.wav</ShortName>
-					<Path>SFX\2_D35BE926.wem</Path>
-				</File>
-				<File Id="377697797" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shots_STOP.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shots_STOP_D35BE926.wem</Path>
-				</File>
-				<File Id="464830610" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_02.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_02_D35BE926.wem</Path>
-				</File>
-				<File Id="475104398" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_01.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_01_D35BE926.wem</Path>
-				</File>
-				<File Id="655460438" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_04.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_04_D35BE926.wem</Path>
-				</File>
-				<File Id="717691807" Language="SFX">
-					<ShortName>4.wav</ShortName>
-					<Path>SFX\4_D35BE926.wem</Path>
-				</File>
-				<File Id="731284179" Language="SFX">
-					<ShortName>1.wav</ShortName>
-					<Path>SFX\1_D35BE926.wem</Path>
-				</File>
-				<File Id="747290661" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_06.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_06_D35BE926.wem</Path>
-				</File>
-				<File Id="811431803" Language="SFX">
-					<ShortName>3.wav</ShortName>
-					<Path>SFX\3_D35BE926.wem</Path>
-				</File>
-				<File Id="817387288" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_08.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_08_D35BE926.wem</Path>
-				</File>
-				<File Id="1038186181" Language="SFX">
-					<ShortName>LaserGuns_Multi_Shots\Laserguns_Multi_Shot_05.wav</ShortName>
-					<Path>SFX\LaserGuns_Multi_Shots\Laserguns_Multi_Shot_05_D35BE926.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

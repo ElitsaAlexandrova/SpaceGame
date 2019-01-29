@@ -6,8 +6,6 @@
 				<SoundBank Name="Lazer_Guns" ID="{1F954219-D3E2-44C7-98E0-FFF22454215A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Lazer_Guns" ID="{31D29BEE-AE1F-4528-A5BA-2EAD0C242230}" WorkUnitID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Laserguns_Multi_Shots" ID="{AECB8758-6A44-4582-9A1F-B2AEAF4371AD}" WorkUnitID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Stop_Laserguns_Multi_Shots" ID="{CBA1E813-7733-4803-BDE9-04D0A083026C}" WorkUnitID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -3,13 +3,13 @@
 	<Platform GUID="{C79619A9-4C0F-44F1-BB28-77D3214A7D7D}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="4221927926" Timestamp="1548709613"/>
-				<File Name="Lazer_Guns" Hash="2166582332" Timestamp="1548709797"/>
+				<File Name="Init" Hash="4221927926" Timestamp="1548759708"/>
+				<File Name="Lazer_Guns" Hash="1228926052" Timestamp="1548759704"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3170156868" Timestamp="1548709813"/>
+				<File Name="" Hash="2845271329" Timestamp="1548759708"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
