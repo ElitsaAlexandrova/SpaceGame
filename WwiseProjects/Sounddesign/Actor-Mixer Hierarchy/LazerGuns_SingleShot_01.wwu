@@ -16,7 +16,6 @@
 						<RandomSequenceContainer Name="LaserGuns_SingleShot_Slow" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" ShortID="781091370">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 							</PropertyList>
 							<ReferenceList>

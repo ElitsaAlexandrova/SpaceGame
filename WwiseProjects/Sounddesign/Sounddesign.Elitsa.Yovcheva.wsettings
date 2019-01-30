@@ -7,7 +7,9 @@
 				<Property Name="ControlSurfaceBindingCtrl\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{55D6C290-F4B6-418E-9379-B579C593BF66}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{729C8918-D101-4F53-A0EB-BF73FD297555}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{732DF039-0267-4F37-91E5-BB4CEFEB5788}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{89B25312-BE27-49D6-A77D-A477B6BCEFB0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8B55E25D-3C79-48A4-BF15-9E20EE794594}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AECB8758-6A44-4582-9A1F-B2AEAF4371AD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
