@@ -32,7 +32,22 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Laser1" ID="{45CDF1C0-2A8C-4FD3-B6E5-D96C2478AD63}" ShortID="545751110">
+								<Sound Name="Laser_Single_Shot" ID="{3BEF6D47-90AF-4560-816D-111F73CD2E73}" ShortID="1053049338">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{75AFE28D-8972-477E-B96C-08F9178176FA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
@@ -42,175 +57,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Laser1" ID="{F17B1B7D-A1F2-44E1-BDF4-0A31BFA93BE0}" ShortID="586279899">
+										<AudioFileSource Name="Laser_Single_Shot" ID="{E4C9DC29-7313-4E50-A7AD-6C9D73E704B7}" ShortID="496772919">
 											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.389506493506493"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.05202649676601E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.12173238167146E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.446306334452863"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser1.wav</AudioFile>
+											<AudioFile>Laser_Single_Shot.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Laser1" ID="{F17B1B7D-A1F2-44E1-BDF4-0A31BFA93BE0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser2" ID="{BA93473E-F791-4719-9A90-D530589CBFA1}" ShortID="261839152">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser2" ID="{C19F0356-4CD1-4772-B35D-40247EBD15D0}" ShortID="718349471">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.282036093776354"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser2" ID="{C19F0356-4CD1-4772-B35D-40247EBD15D0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser3" ID="{F042A22F-C8E7-4DC7-997F-04D8BE0FCB5F}" ShortID="956870299">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser3" ID="{3E85177D-6DE5-4518-9CF2-A88F6C4BB211}" ShortID="499240084">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.173823429096156"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser3" ID="{3E85177D-6DE5-4518-9CF2-A88F6C4BB211}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser4" ID="{3ED67821-9647-4D16-910C-E04C72C1B116}" ShortID="886203479">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser4" ID="{7D6162B3-93D9-4B97-9551-82348E4A5C05}" ShortID="147260979">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="4.81046457150353E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser4" ID="{7D6162B3-93D9-4B97-9551-82348E4A5C05}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser5" ID="{F6620FC7-4C31-406D-821B-9CF590F49A53}" ShortID="531406836">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser5" ID="{65CCC0A4-2C68-498A-A74E-57E2E0D9352F}" ShortID="264271396">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="3.12773748617904E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser5" ID="{65CCC0A4-2C68-498A-A74E-57E2E0D9352F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser6" ID="{9DC20B1A-7A7D-420D-A9E4-7E8B793B4927}" ShortID="139264216">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser6" ID="{FD628DAF-33DE-4259-B3EF-1FA526A79B0C}" ShortID="728713635">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="4.06948895260583E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser6" ID="{FD628DAF-33DE-4259-B3EF-1FA526A79B0C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser7" ID="{283597FA-F4D3-4B23-9EF4-BEA02169BC43}" ShortID="494789931">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser7" ID="{F0F3C8F8-5991-4C66-9D99-7E61F1B577FA}" ShortID="1070630300">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="5.67521598170949E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser7" ID="{F0F3C8F8-5991-4C66-9D99-7E61F1B577FA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Laser8" ID="{08D30738-A529-455A-97EB-16DC06DAEABF}" ShortID="251272202">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser8" ID="{CD980D25-28EC-4884-A1CE-0D51FF0C6B13}" ShortID="588724913">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="6.15568673750492E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser8.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser8" ID="{CD980D25-28EC-4884-A1CE-0D51FF0C6B13}" Platform="Linked"/>
+										<ActiveSource Name="Laser_Single_Shot" ID="{E4C9DC29-7313-4E50-A7AD-6C9D73E704B7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="LaserGuns_MultiShot_Fast_02" ID="{28B38105-3BC1-467C-9687-8B83669B9191}" ShortID="501460650">
+						<RandomSequenceContainer Name="LaserGuns_MultiShot_Loop" ID="{28B38105-3BC1-467C-9687-8B83669B9191}" ShortID="501460650">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
@@ -220,7 +83,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="MultiShot_02" ID="{13159513-3CA7-4E7F-8034-6B6D492D69BB}" ShortID="280993814">
+								<Sound Name="Laser_loop" ID="{AA9797D8-6591-460D-8A64-8DC923939B15}" ShortID="837028908">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
@@ -238,113 +101,18 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Laser6" ID="{28F41E72-61E7-45B2-8F0C-F031A88E8B62}" ShortID="661390797">
+										<AudioFileSource Name="Laser_loop" ID="{D4E420DE-2313-4E3D-9AD6-FB1E9A1B3C5C}" ShortID="866072661">
 											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="4.01551695058188E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.15371226176421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.29075154756637E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.08208269639184E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.204141043331858"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser6.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="282722793"/>
-											</ConvertedFileIDList>
+											<AudioFile>Laser_loop.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Laser6" ID="{28F41E72-61E7-45B2-8F0C-F031A88E8B62}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MultiShot_01" ID="{5057E372-3983-4D8D-A54B-17114559A6A7}" ShortID="706622302">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser1" ID="{149CF262-43C0-4F2A-AB1F-BEFF8B11F83B}" ShortID="612697277">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.393489177489177"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.547220779220779"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser1" ID="{149CF262-43C0-4F2A-AB1F-BEFF8B11F83B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MultiShot_03" ID="{B84D5F3D-3CFB-4A33-8B17-F639958176D6}" ShortID="277806962">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser4" ID="{5974433F-34C2-487A-A6EE-54866EC348C4}" ShortID="176813274">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="4.81046457150353E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.16295226851071"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser4" ID="{5974433F-34C2-487A-A6EE-54866EC348C4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MultiShot_04" ID="{B9D35E28-A8C8-4389-A4B6-4CB3787AE870}" ShortID="309981826">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Laser3" ID="{CAF362A5-7B87-458F-8267-468C008865BA}" ShortID="972243196">
-											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.172748786566968"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.280481700118064"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>LazerGuns_Single_Shot_02\Laser3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Laser3" ID="{CAF362A5-7B87-458F-8267-468C008865BA}" Platform="Linked"/>
+										<ActiveSource Name="Laser_loop" ID="{D4E420DE-2313-4E3D-9AD6-FB1E9A1B3C5C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -481,6 +249,47 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Laser6" ID="{AAE6D108-A2AC-4F33-974F-5BD82242F9DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Explosion" ID="{E3A5A5D6-FC3E-42B6-8480-6697BD7EA73E}" ShortID="855797982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Expl" ID="{2C729736-4C2D-4AC5-81C7-CE833743E6A6}" ShortID="935680320">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Expl" ID="{31262DE3-1ED7-44D8-920B-51820279D012}" ShortID="655324535">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.32754599926357E-03"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Explosion_02\Expl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Expl" ID="{31262DE3-1ED7-44D8-920B-51820279D012}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
