@@ -2,6 +2,7 @@
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
 		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
@@ -22,6 +23,16 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+=======
+		<ProjectRoot>F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+>>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 		<File Id="176813274" Language="SFX">
 			<ShortName>LazerGuns_Single_Shot_02\Laser4.wav</ShortName>
 			<Path>SFX\LazerGuns_Single_Shot_02\Laser4_C3221D80.wem</Path>
@@ -53,6 +64,9 @@
 		<File Id="972243196" Language="SFX">
 			<ShortName>LazerGuns_Single_Shot_02\Laser3.wav</ShortName>
 			<Path>SFX\LazerGuns_Single_Shot_02\Laser3_09462094.wem</Path>
+<<<<<<< HEAD
+>>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
+=======
 >>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 		</File>
 	</StreamedFiles>
@@ -68,6 +82,7 @@
 			<ShortName>Lazer_Guns</ShortName>
 			<Path>Lazer_Guns.bnk</Path>
 			<IncludedEvents>
+<<<<<<< HEAD
 <<<<<<< HEAD
 				<Event Id="3945663269" Name="Play_Expl" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_Expl"/>
 				<Event Id="4030404899" Name="Play_Explosion" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_Explosion"/>
@@ -87,6 +102,8 @@
 					<ShortName>Explosion_02\Expl.wav</ShortName>
 					<Path>SFX\Explosion_02\Expl_E54B579D.wem</Path>
 =======
+=======
+>>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 				<Event Id="2131440092" Name="Play_LaserGun_Burst" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_LaserGun_Burst"/>
 				<Event Id="39437090" Name="Play_LaserGuns_MultiShot_Fast_02" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_LaserGuns_MultiShot_Fast_02"/>
 				<Event Id="3608513869" Name="Play_LaserGuns_MultiShot_Slow_02" ObjectPath="\Events\Default Work Unit\Lazer_Guns\Play_LaserGuns_MultiShot_Slow_02"/>
@@ -189,6 +206,9 @@
 				<File Id="1070630300" Language="SFX">
 					<ShortName>LazerGuns_Single_Shot_02\Laser7.wav</ShortName>
 					<Path>SFX\LazerGuns_Single_Shot_02\Laser7_7C754BBB.wem</Path>
+<<<<<<< HEAD
+>>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
+=======
 >>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 				</File>
 			</IncludedMemoryFiles>

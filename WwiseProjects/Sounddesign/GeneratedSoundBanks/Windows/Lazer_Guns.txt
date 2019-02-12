@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 <<<<<<< HEAD
+<<<<<<< HEAD
 	1103433492	Play_Explosion_02			\Default Work Unit\Lazer_Guns\Play_Explosion_02	
 	3015628985	Play_LaserGuns_MultiShot_Loop			\Default Work Unit\Lazer_Guns\Play_LaserGuns_MultiShot_Loop	
 	3466763226	Play_LaserGuns_SingleShot_02			\Default Work Unit\Lazer_Guns\Play_LaserGuns_SingleShot_02	
@@ -13,6 +14,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	866072661	Laser_loop	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_loop_CBF2A08E.wem	866072661.wem	\Actor-Mixer Hierarchy\Default Work Unit\Space_Game\LazerGuns_SingleShot_02\LazerGuns_SingleShot_02\LaserGuns_MultiShot_Loop\Laser_loop	
 =======
+=======
+>>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 	39437090	Play_LaserGuns_MultiShot_Fast_02			\Default Work Unit\Lazer_Guns\Play_LaserGuns_MultiShot_Fast_02	
 	302319935	Play_LaserGuns_SingleShot_Slow			\Default Work Unit\Lazer_Guns\Play_LaserGuns_SingleShot_Slow	
 	1848834034	Play_LaserGuns_SingleShot_Fast			\Default Work Unit\Lazer_Guns\Play_LaserGuns_SingleShot_Fast	
@@ -53,5 +56,8 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	661390797	MultiShot_02	F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\LazerGuns_Single_Shot_02\Laser6_F57783B8.wem	661390797.wem	\Actor-Mixer Hierarchy\Default Work Unit\Space_Game\LazerGuns_SingleShot_02\LazerGuns_SingleShot_02\LaserGuns_MultiShot_Slow_02\MultiShot_02	
 	953227666	MultiShot_04	F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\LazerGuns_Single_Shot_02\Laser3_209F7674.wem	953227666.wem	\Actor-Mixer Hierarchy\Default Work Unit\Space_Game\LazerGuns_SingleShot_02\LazerGuns_SingleShot_02\LaserGuns_MultiShot_Slow_02\MultiShot_04	
 	972243196	MultiShot_04	F:\SpaceGame\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\LazerGuns_Single_Shot_02\Laser3_09462094.wem	972243196.wem	\Actor-Mixer Hierarchy\Default Work Unit\Space_Game\LazerGuns_SingleShot_02\LazerGuns_SingleShot_02\LaserGuns_MultiShot_Fast_02\MultiShot_04	
+<<<<<<< HEAD
+>>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
+=======
 >>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 
