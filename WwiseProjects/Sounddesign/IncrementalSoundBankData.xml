@@ -4,13 +4,8 @@
 		<Banks>
 			<Language ID="393239870">
 <<<<<<< HEAD
-<<<<<<< HEAD
 				<File Name="Init" Hash="4221927926" Timestamp="1548837617"/>
 				<File Name="Lazer_Guns" Hash="240424976" Timestamp="1549926736"/>
-=======
-				<File Name="Init" Hash="4221927926" Timestamp="1548847182"/>
-				<File Name="Lazer_Guns" Hash="19880343" Timestamp="1548847182"/>
->>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 =======
 				<File Name="Init" Hash="4221927926" Timestamp="1548847182"/>
 				<File Name="Lazer_Guns" Hash="19880343" Timestamp="1548847182"/>
@@ -20,11 +15,7 @@
 		<XMLInfo>
 			<Language ID="-1">
 <<<<<<< HEAD
-<<<<<<< HEAD
 				<File Name="" Hash="3425539281" Timestamp="1549926737"/>
-=======
-				<File Name="" Hash="1005829415" Timestamp="1548847182"/>
->>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
 =======
 				<File Name="" Hash="1005829415" Timestamp="1548847182"/>
 >>>>>>> 59bad01855d98ae1864b025f7fd19169cd11638f
