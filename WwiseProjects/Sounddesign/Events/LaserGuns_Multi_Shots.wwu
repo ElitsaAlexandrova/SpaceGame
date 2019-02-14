@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" SchemaVersion="85" RootDocumentID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}">
+<WwiseDocument Type="WorkUnit" ID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" SchemaVersion="85" RootDocumentID="{E635383D-20F4-4CCB-B6D7-FA7637E1451F}">
 	<Events>
-		<WorkUnit Name="LaserGuns_Multi_Shots" ID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" OwnerID="{31D29BEE-AE1F-4528-A5BA-2EAD0C242230}" PersistMode="Nested"/>
+		<WorkUnit Name="LaserGuns_Multi_Shots" ID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" OwnerID="{E635383D-20F4-4CCB-B6D7-FA7637E1451F}" PersistMode="Nested"/>
 	</Events>
 </WwiseDocument>

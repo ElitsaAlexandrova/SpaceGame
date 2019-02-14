@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{528061D5-4700-41D0-969D-F67F598BD337}" SchemaVersion="85" RootDocumentID="{39B3659C-62ED-4842-8160-4A3CB11495BD}">
+<WwiseDocument Type="WorkUnit" ID="{528061D5-4700-41D0-969D-F67F598BD337}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="LazerGuns_Multi_Shots" ID="{528061D5-4700-41D0-969D-F67F598BD337}" OwnerID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}" PersistMode="Nested">
+		<WorkUnit Name="Elena" ID="{528061D5-4700-41D0-969D-F67F598BD337}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="LazerGuns_Multi_Shots" ID="{694EF09E-D226-4C32-8893-FE0181A661F6}" ShortID="355555365">
 					<ReferenceList>

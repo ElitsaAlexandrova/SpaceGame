@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,10 +16,20 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3205301195" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Lazer_Guns</ObjectPath>
-			<ShortName>Lazer_Guns</ShortName>
-			<Path>Lazer_Guns.bnk</Path>
+		<SoundBank Id="1630005044" Language="SFX">
+			<ObjectPath>\SoundBanks\Elena\Elena</ObjectPath>
+			<ShortName>Elena</ShortName>
+			<Path>Elena.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2379425051" Language="SFX">
+			<ObjectPath>\SoundBanks\Dimitar\Dimitar</ObjectPath>
+			<ShortName>Dimitar</ShortName>
+			<Path>Dimitar.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2439983344" Language="SFX">
+			<ObjectPath>\SoundBanks\Vasilena\Vasilena</ObjectPath>
+			<ShortName>Vasilena</ShortName>
+			<Path>Vasilena.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

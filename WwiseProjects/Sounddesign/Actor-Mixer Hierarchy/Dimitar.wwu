@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}" SchemaVersion="85" RootDocumentID="{39B3659C-62ED-4842-8160-4A3CB11495BD}">
+<WwiseDocument Type="WorkUnit" ID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="LazerGuns_SingleShot_01" ID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}" OwnerID="{E76E2394-C9DD-4C53-96CC-364AB19CBBC4}" PersistMode="Nested">
+		<WorkUnit Name="Dimitar" ID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="LaserGuns_SingleShot_01" ID="{FB653028-F81A-4B24-8E89-E09A1973DBDA}" ShortID="602355655">
 					<ReferenceList>

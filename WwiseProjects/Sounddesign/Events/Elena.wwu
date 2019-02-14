@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E635383D-20F4-4CCB-B6D7-FA7637E1451F}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Elena" ID="{E635383D-20F4-4CCB-B6D7-FA7637E1451F}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="LaserGuns_Multi_Shots" ID="{AFB533B7-ED9A-4E0B-BB0F-CC535462EA8E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Dimitar" ID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_LaserGuns_MultiShot_Slow_02" ID="{9A3E7724-3E57-4019-8DF8-D2F330050DF2}">
+					<ChildrenList>
+						<Action Name="" ID="{184C712A-ED18-4B4C-9081-91C0D24B822E}" ShortID="321512508">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserGuns_MultiShot_Slow_02" ID="{9C5BA67D-4FD7-4DD7-AF87-1D61F3DE1E75}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LaserGun_Burst" ID="{8B55E25D-3C79-48A4-BF15-9E20EE794594}">
+					<ChildrenList>
+						<Action Name="" ID="{50E62589-806C-4CD8-8998-D07C857B885C}" ShortID="368894196">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserGun_Burst" ID="{7439A60D-85E6-4092-A29C-3A42BBCEE029}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LaserGuns_MultiShot_Fast_02" ID="{2503E8E6-D362-4DD5-AA32-2DDB9BFF1EBA}">
+					<ChildrenList>
+						<Action Name="" ID="{0CFD6B09-10FD-41CE-96F5-F486F0B61367}" ShortID="329033678">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserGuns_MultiShot_Fast_02" ID="{28B38105-3BC1-467C-9687-8B83669B9191}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LaserGuns_SingleShot_02" ID="{DDFF8221-A750-4BDA-B39C-010E384667B3}">
+					<ChildrenList>
+						<Action Name="" ID="{BD8C93D2-6D25-4684-80B4-BAB5EE4518AE}" ShortID="921544507">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserGuns_SingleShot_02" ID="{1DD60858-EF9C-4335-BC37-6DCF8991E8CF}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
