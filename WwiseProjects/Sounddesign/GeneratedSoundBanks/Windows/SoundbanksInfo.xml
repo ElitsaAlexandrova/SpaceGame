@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
