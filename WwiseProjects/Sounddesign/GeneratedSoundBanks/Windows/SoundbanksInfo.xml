@@ -30,6 +30,71 @@
 			<ObjectPath>\SoundBanks\Dimitar\Dimitar</ObjectPath>
 			<ShortName>Dimitar</ShortName>
 			<Path>Dimitar.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4030404899" Name="Play_Explosion" ObjectPath="\Events\Dimitar\Play_Explosion"/>
+				<Event Id="2131440092" Name="Play_LaserGun_Burst" ObjectPath="\Events\Dimitar\Play_LaserGun_Burst"/>
+				<Event Id="1848834034" Name="Play_LaserGuns_SingleShot_Fast" ObjectPath="\Events\Dimitar\Play_LaserGuns_SingleShot_Fast"/>
+				<Event Id="4197312714" Name="Play_LaserGuns_SingleShot_Med" ObjectPath="\Events\Dimitar\Play_LaserGuns_SingleShot_Med"/>
+				<Event Id="302319935" Name="Play_LaserGuns_SingleShot_Slow" ObjectPath="\Events\Dimitar\Play_LaserGuns_SingleShot_Slow"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="18763452" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX\2_D0145EC9.wem</Path>
+				</File>
+				<File Id="166491134" Language="SFX">
+					<ShortName>1.wav</ShortName>
+					<Path>SFX\1_E1EDDD76.wem</Path>
+				</File>
+				<File Id="196996465" Language="SFX">
+					<ShortName>3.wav</ShortName>
+					<Path>SFX\3_497D48E1.wem</Path>
+				</File>
+				<File Id="269991564" Language="SFX">
+					<ShortName>4.wav</ShortName>
+					<Path>SFX\4_525004DF.wem</Path>
+				</File>
+				<File Id="325771014" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX\2_342A29F2.wem</Path>
+				</File>
+				<File Id="416369252" Language="SFX">
+					<ShortName>4.wav</ShortName>
+					<Path>SFX\4_09B42B94.wem</Path>
+				</File>
+				<File Id="469081662" Language="SFX">
+					<ShortName>1.wav</ShortName>
+					<Path>SFX\1_155667E8.wem</Path>
+				</File>
+				<File Id="717691807" Language="SFX">
+					<ShortName>4.wav</ShortName>
+					<Path>SFX\4_5913C9C0.wem</Path>
+				</File>
+				<File Id="731284179" Language="SFX">
+					<ShortName>1.wav</ShortName>
+					<Path>SFX\1_3C0B3389.wem</Path>
+				</File>
+				<File Id="794143427" Language="SFX">
+					<ShortName>3.wav</ShortName>
+					<Path>SFX\3_0D8E7A24.wem</Path>
+				</File>
+				<File Id="811431803" Language="SFX">
+					<ShortName>3.wav</ShortName>
+					<Path>SFX\3_FD01A346.wem</Path>
+				</File>
+				<File Id="830910852" Language="SFX">
+					<ShortName>explosion.wav</ShortName>
+					<Path>SFX\explosion_93E23962.wem</Path>
+				</File>
+				<File Id="861336501" Language="SFX">
+					<ShortName>4.wav</ShortName>
+					<Path>SFX\4_F5F1F8AF.wem</Path>
+				</File>
+				<File Id="868756267" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX\2_05DD74D0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2439983344" Language="SFX">
 			<ObjectPath>\SoundBanks\Vasilena\Vasilena</ObjectPath>

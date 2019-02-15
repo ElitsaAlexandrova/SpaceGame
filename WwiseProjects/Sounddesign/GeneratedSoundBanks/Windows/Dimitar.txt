@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	302319935	Play_LaserGuns_SingleShot_Slow			\Dimitar\Play_LaserGuns_SingleShot_Slow	
+	1848834034	Play_LaserGuns_SingleShot_Fast			\Dimitar\Play_LaserGuns_SingleShot_Fast	
+	2131440092	Play_LaserGun_Burst			\Dimitar\Play_LaserGun_Burst	
+	4030404899	Play_Explosion			\Dimitar\Play_Explosion	
+	4197312714	Play_LaserGuns_SingleShot_Med			\Dimitar\Play_LaserGuns_SingleShot_Med	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	18763452	Laser_02	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\2_D0145EC9.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Fast\Laser_02		2813
+	166491134	Laser_01	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\1_E1EDDD76.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Fast\Laser_01		2753
+	196996465	Laser_03	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\3_497D48E1.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Med\Laser_03		4144
+	269991564	Laser_04	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\4_525004DF.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Med\Laser_04		4390
+	325771014	Laser_02	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\2_342A29F2.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Slow\Laser_02		6610
+	416369252	Laser_04	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\4_09B42B94.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGun_Burst\Laser_04		2539
+	469081662	Laser_01	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\1_155667E8.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Med\Laser_01		3297
+	717691807	Laser_04	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\4_5913C9C0.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Slow\Laser_04		7530
+	731284179	Laser_01	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\1_3C0B3389.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Slow\Laser_01		6439
+	794143427	Laser_03	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\3_0D8E7A24.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Fast\Laser_03		3229
+	811431803	Laser_03	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\3_FD01A346.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Slow\Laser_03		7076
+	830910852	Explosion	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\explosion_93E23962.wem		\Actor-Mixer Hierarchy\Dimitar\Explosion		20862
+	861336501	Laser_04	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\4_F5F1F8AF.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Fast\Laser_04		3036
+	868756267	Laser_02	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\2_05DD74D0.wem		\Actor-Mixer Hierarchy\Dimitar\LaserGuns_SingleShot_01\LaserGuns_SingleShot_Med\Laser_02		3553
+

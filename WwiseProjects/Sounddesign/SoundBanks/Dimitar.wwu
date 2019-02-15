@@ -4,7 +4,13 @@
 		<WorkUnit Name="Dimitar" ID="{E182CC0B-C484-4BB9-B179-ED97AF8BBEF8}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Dimitar" ID="{D89EF678-A418-4BC1-8464-183D8BB84064}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_LaserGuns_SingleShot_Slow" ID="{41C2F30C-75FC-424C-B9D9-D2EC44E4A672}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Explosion" ID="{2C93C168-0DF3-42BF-96C9-CEFAE5C95261}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_LaserGun_Burst" ID="{1258AEAF-3025-479D-AED3-68A6D7703837}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_LaserGuns_SingleShot_Med" ID="{466E7886-D727-4D55-BC62-D28AF541BAC3}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_LaserGuns_SingleShot_Fast" ID="{DF033951-F491-4EDD-B951-46346B616EF6}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
