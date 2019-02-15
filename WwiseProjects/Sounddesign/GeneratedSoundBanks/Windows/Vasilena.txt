@@ -6,11 +6,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1256693076	Play_Laser_Loop			\Vasilena\Play_Laser_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	130709047	Explosion_2	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Expl_B387200A.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Explosion_2		7003
-	598120364	Laser_SingleShot_Fast	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_6AC09071.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Laser_SingleShot_Fast		3273
-	664595452	Explosion_1	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Expl3_5416420C.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Explosion_1		9223
-	733114827	Laser_SingleShot_Slow	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_56ED4ADC.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Laser_SingleShot_Slow		5113
+	130709047	Explosion_2	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Expl_AF8E7DB8.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Explosion_2		7003
+	598120364	Laser_SingleShot_Fast	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_92008A4C.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Laser_SingleShot_Fast		3273
+	664595452	Explosion_1	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Expl3_ABC00736.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Explosion_1		9223
+	733114827	Laser_SingleShot_Slow	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_6CA68204.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Laser_SingleShot_Slow		5113
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	89162789	Laser_Loop	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_2503FBF6.wem	89162789.wem	\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Laser_Loop	
+	89162789	Laser_Loop	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Laser_D1A78FE7.wem	89162789.wem	\Actor-Mixer Hierarchy\Vasilena\LazerGuns_SingleShot_02\Laser_Loop	
 

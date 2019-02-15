@@ -7,12 +7,12 @@
 				<File Name="Elena" Hash="1393888798" Timestamp="1550182866"/>
 				<File Name="Init" Hash="4221927926" Timestamp="1550242908"/>
 				<File Name="Lazer_Guns" Hash="1228926052" Timestamp="1548759704"/>
-				<File Name="Vasilena" Hash="291975950" Timestamp="1550242991"/>
+				<File Name="Vasilena" Hash="1120527791" Timestamp="1550243225"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2376976668" Timestamp="1550242991"/>
+				<File Name="" Hash="3328890656" Timestamp="1550243225"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

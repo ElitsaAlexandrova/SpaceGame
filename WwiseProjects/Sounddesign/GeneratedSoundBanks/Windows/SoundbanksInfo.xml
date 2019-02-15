@@ -11,7 +11,7 @@
 	<StreamedFiles>
 		<File Id="89162789" Language="SFX">
 			<ShortName>Laser.wav</ShortName>
-			<Path>SFX\Laser_2503FBF6.wem</Path>
+			<Path>SFX\Laser_D1A78FE7.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -48,19 +48,19 @@
 			<IncludedMemoryFiles>
 				<File Id="130709047" Language="SFX">
 					<ShortName>Expl.wav</ShortName>
-					<Path>SFX\Expl_B387200A.wem</Path>
+					<Path>SFX\Expl_AF8E7DB8.wem</Path>
 				</File>
 				<File Id="598120364" Language="SFX">
 					<ShortName>Laser.wav</ShortName>
-					<Path>SFX\Laser_6AC09071.wem</Path>
+					<Path>SFX\Laser_92008A4C.wem</Path>
 				</File>
 				<File Id="664595452" Language="SFX">
 					<ShortName>Expl3.wav</ShortName>
-					<Path>SFX\Expl3_5416420C.wem</Path>
+					<Path>SFX\Expl3_ABC00736.wem</Path>
 				</File>
 				<File Id="733114827" Language="SFX">
 					<ShortName>Laser.wav</ShortName>
-					<Path>SFX\Laser_56ED4ADC.wem</Path>
+					<Path>SFX\Laser_6CA68204.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
