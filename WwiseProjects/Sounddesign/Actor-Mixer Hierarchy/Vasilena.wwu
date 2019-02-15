@@ -485,6 +485,167 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Laser_SingleShot_Slow" ID="{0B079644-AC80-4A4D-AC36-CEE30E977EE0}" ShortID="986268171">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{803AAE58-EE32-4774-A073-B9C9AC8DB97D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="240"/>
+													<Property Name="Min" Type="Real64" Value="-240"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser" ID="{6550BE25-240E-4D71-A101-2B84C0D3BF51}" ShortID="733114827">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="5.57046657046658E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.340738929180488"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.970129307921516"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Laser.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser" ID="{6550BE25-240E-4D71-A101-2B84C0D3BF51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser_SingleShot_Fast" ID="{9CDFB958-A5C6-495E-BBA0-7D446C76644E}" ShortID="481976918">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{39A6E95E-B337-41CB-84B1-83E751CD2BF7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser" ID="{CC7BAC42-60E4-42F4-9CD0-ADE3E4F615FD}" ShortID="598120364">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="9.40468382026821E-03"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="6.07687262232717E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.336398305878825"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.706798160954006"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Laser.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser" ID="{CC7BAC42-60E4-42F4-9CD0-ADE3E4F615FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser_Loop" ID="{DA266AE2-1E0C-4D89-888F-16927551AB2D}" ShortID="53165420">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser" ID="{569538E5-7352-4296-83B7-F68C3723DF25}" ShortID="89162789">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.30218699049868E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.24265537252551E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.332057682577163"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.447807637288157"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Laser.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser" ID="{569538E5-7352-4296-83B7-F68C3723DF25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Explosion_1" ID="{22726430-825E-4551-8D8E-58D9E2069312}" ShortID="98601615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Expl3" ID="{5BD39B5A-877D-4A23-993C-EE0608551D6E}" ShortID="664595452">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.021001443001443"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.169116883116883"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.307284271284272"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.50436652236652"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Expl3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Expl3" ID="{5BD39B5A-877D-4A23-993C-EE0608551D6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Explosion_2" ID="{D13B74EA-20B7-4696-831D-A1C2B85061C7}" ShortID="411216683">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Expl" ID="{61F494FA-91B6-494E-8499-94EF27A44E9E}" ShortID="130709047">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="8.94773336331778E-03"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="6.20376179856699E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.897159398561996"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Expl.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Expl" ID="{61F494FA-91B6-494E-8499-94EF27A44E9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

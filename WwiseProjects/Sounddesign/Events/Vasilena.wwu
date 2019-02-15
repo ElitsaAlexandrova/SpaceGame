@@ -3,43 +3,71 @@
 	<Events>
 		<WorkUnit Name="Vasilena" ID="{E46CF248-F74C-498A-B639-09921EE59E0E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_LaserGuns_SingleShot_Fast" ID="{4C793998-99FE-42F7-81D1-5957FFF0DB73}">
+				<Event Name="Play_Laser_SingleShot_Fast" ID="{EDF89E28-527C-453B-9E7F-D0B3D136F786}">
 					<ChildrenList>
-						<Action Name="" ID="{DD12F8BD-1DA1-4DC6-B726-105D32129F56}" ShortID="728596058">
+						<Action Name="" ID="{362F4EAA-455C-4176-8818-DFC1FF9C4911}" ShortID="682594583">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="LaserGuns_SingleShot_Fast" ID="{4DE56903-0C6D-4EE3-B011-478F3AF6800E}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
+									<ObjectRef Name="Laser_SingleShot_Fast" ID="{9CDFB958-A5C6-495E-BBA0-7D446C76644E}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_LaserGuns_SingleShot_Med" ID="{BA4CED47-DA61-40D0-99B3-5C0404AE4C66}">
+				<Event Name="Play_Laser_SingleShot_Slow" ID="{69DFE1C0-1115-4B04-9666-6850A9A9F1A6}">
 					<ChildrenList>
-						<Action Name="" ID="{A9C55886-1EC4-4726-A364-150477FA0E48}" ShortID="713654287">
+						<Action Name="" ID="{7A95B7A0-104A-4D3A-84B1-ACC51C94D002}" ShortID="1055516545">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="LaserGuns_SingleShot_Med" ID="{99490966-F7AC-432F-83EC-407E168A10E6}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
+									<ObjectRef Name="Laser_SingleShot_Slow" ID="{0B079644-AC80-4A4D-AC36-CEE30E977EE0}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_LaserGuns_SingleShot_Slow" ID="{732DF039-0267-4F37-91E5-BB4CEFEB5788}">
+				<Event Name="Play_Laser_Loop" ID="{DE1C5E10-FBAA-4633-9606-9BBBC32E9E04}">
 					<ChildrenList>
-						<Action Name="" ID="{A37439D3-1C70-49AC-860F-662571BA6401}" ShortID="1057538557">
+						<Action Name="" ID="{5C6D41CE-9E03-4A78-BDE6-39884BC785F4}" ShortID="560896373">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="LaserGuns_SingleShot_Slow" ID="{40BB6FE9-4711-4234-A6E9-9B4A9E79EBE6}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
+									<ObjectRef Name="Laser_Loop" ID="{DA266AE2-1E0C-4D89-888F-16927551AB2D}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Explosion_1" ID="{B0664830-CAFE-48BF-9D8E-61622E299A19}">
+					<ChildrenList>
+						<Action Name="" ID="{5BE178AB-0FCD-4227-B3B2-BF9A69FF07F2}" ShortID="668810919">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion_1" ID="{22726430-825E-4551-8D8E-58D9E2069312}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Explosion_2" ID="{F8B777BA-C312-4088-A85D-B01061FFBCFD}">
+					<ChildrenList>
+						<Action Name="" ID="{9F556961-5550-44A5-8096-FF286BFC7C27}" ShortID="312242038">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion_2" ID="{D13B74EA-20B7-4696-831D-A1C2B85061C7}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="89162789" Language="SFX">
+			<ShortName>Laser.wav</ShortName>
+			<Path>SFX\Laser_2503FBF6.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -30,6 +35,34 @@
 			<ObjectPath>\SoundBanks\Vasilena\Vasilena</ObjectPath>
 			<ShortName>Vasilena</ShortName>
 			<Path>Vasilena.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1132348419" Name="Play_Explosion_1" ObjectPath="\Events\Vasilena\Play_Explosion_1"/>
+				<Event Id="1132348416" Name="Play_Explosion_2" ObjectPath="\Events\Vasilena\Play_Explosion_2"/>
+				<Event Id="1256693076" Name="Play_Laser_Loop" ObjectPath="\Events\Vasilena\Play_Laser_Loop"/>
+				<Event Id="73225255" Name="Play_Laser_SingleShot_Fast" ObjectPath="\Events\Vasilena\Play_Laser_SingleShot_Fast"/>
+				<Event Id="839400446" Name="Play_Laser_SingleShot_Slow" ObjectPath="\Events\Vasilena\Play_Laser_SingleShot_Slow"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="89162789"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="130709047" Language="SFX">
+					<ShortName>Expl.wav</ShortName>
+					<Path>SFX\Expl_B387200A.wem</Path>
+				</File>
+				<File Id="598120364" Language="SFX">
+					<ShortName>Laser.wav</ShortName>
+					<Path>SFX\Laser_6AC09071.wem</Path>
+				</File>
+				<File Id="664595452" Language="SFX">
+					<ShortName>Expl3.wav</ShortName>
+					<Path>SFX\Expl3_5416420C.wem</Path>
+				</File>
+				<File Id="733114827" Language="SFX">
+					<ShortName>Laser.wav</ShortName>
+					<Path>SFX\Laser_56ED4ADC.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
