@@ -57,18 +57,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{E67BF043-7D59-4166-B552-C5AA222F2E08}" ShortID="666830195">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
-						<Action Name="" ID="{14F466EF-83BC-4F55-A09C-C1EDA58B4E52}" ShortID="245954033">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Explosion_2" ID="{97555210-AAA3-4695-8408-63120719A930}">
@@ -80,6 +68,30 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Explosion_2" ID="{50E811EC-194F-463C-BBE9-59D695D0BCBB}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Laser_Loop" ID="{7740AAE3-C2FB-4E45-8A40-3DBE39CA47F6}">
+					<ChildrenList>
+						<Action Name="" ID="{708A6A1D-CD8C-430F-B2D7-D780AB6D36B8}" ShortID="222293209">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Laser_Loop" ID="{E6BF5BE5-704A-494A-A3DA-822C50C3DC76}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F3BB7204-B01C-4425-A5B2-CCE32F907789}" ShortID="2637832">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Laser_Fast" ID="{3545A7EC-0F95-4F8E-9561-E3A75AEE1A4B}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
