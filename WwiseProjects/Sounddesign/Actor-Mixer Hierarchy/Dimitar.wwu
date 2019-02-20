@@ -359,27 +359,27 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Explosion" ID="{FDBEC2AF-6969-4329-A0D4-C75977D96BDA}" ShortID="752723953">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosion" ID="{1E191CE4-5A0C-4A6C-9022-4BE9AAD554CA}" ShortID="337727780">
+									<Language>SFX</Language>
+									<AudioFile>Mitko\Explosion.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosion" ID="{1E191CE4-5A0C-4A6C-9022-4BE9AAD554CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<Sound Name="Explosion" ID="{E3C2CF03-430B-47F0-910D-43465204E2FE}" ShortID="86930760">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="explosion" ID="{EEC39529-08D1-4494-93B8-9A68A6C800F0}" ShortID="830910852">
-							<Language>SFX</Language>
-							<AudioFile>explosion.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="explosion" ID="{EEC39529-08D1-4494-93B8-9A68A6C800F0}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

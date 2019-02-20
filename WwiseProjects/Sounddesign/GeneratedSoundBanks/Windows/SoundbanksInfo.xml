@@ -58,6 +58,10 @@
 					<ShortName>2.wav</ShortName>
 					<Path>SFX\2_342A29F2.wem</Path>
 				</File>
+				<File Id="337727780" Language="SFX">
+					<ShortName>Mitko\Explosion.wav</ShortName>
+					<Path>SFX\Mitko\Explosion_D35BE926.wem</Path>
+				</File>
 				<File Id="416369252" Language="SFX">
 					<ShortName>4.wav</ShortName>
 					<Path>SFX\4_09B42B94.wem</Path>
@@ -81,10 +85,6 @@
 				<File Id="811431803" Language="SFX">
 					<ShortName>3.wav</ShortName>
 					<Path>SFX\3_FD01A346.wem</Path>
-				</File>
-				<File Id="830910852" Language="SFX">
-					<ShortName>explosion.wav</ShortName>
-					<Path>SFX\explosion_93E23962.wem</Path>
 				</File>
 				<File Id="861336501" Language="SFX">
 					<ShortName>4.wav</ShortName>

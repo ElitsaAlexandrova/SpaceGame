@@ -67,7 +67,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explosion" ID="{E3C2CF03-430B-47F0-910D-43465204E2FE}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
+									<ObjectRef Name="Explosion" ID="{FDBEC2AF-6969-4329-A0D4-C75977D96BDA}" WorkUnitID="{5C20151A-E65A-484D-BA45-A9E20A4C91C7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
