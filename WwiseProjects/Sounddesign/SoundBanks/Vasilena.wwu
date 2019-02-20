@@ -5,11 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="Vasilena" ID="{00CF648E-C570-437B-B6FA-8E1D189D1A07}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Explosion_2" ID="{F8B777BA-C312-4088-A85D-B01061FFBCFD}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Laser_SingleShot_Fast" ID="{EDF89E28-527C-453B-9E7F-D0B3D136F786}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Laser_Loop" ID="{DE1C5E10-FBAA-4633-9606-9BBBC32E9E04}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Explosion_1" ID="{B0664830-CAFE-48BF-9D8E-61622E299A19}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Laser_SingleShot_Slow" ID="{69DFE1C0-1115-4B04-9666-6850A9A9F1A6}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Laser_Fast" ID="{947B19ED-31DD-41BC-A061-BB00C3107854}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Explosion_2" ID="{97555210-AAA3-4695-8408-63120719A930}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Laser_Slow" ID="{DF30A695-49E1-46B2-B00E-CFBBDCEC496B}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Laser_Loop" ID="{54BFB7C8-9216-4CF6-ADC6-531D84D138DD}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Explosion_1" ID="{ADCAFE37-9D1B-4E1D-837D-DC552E958F65}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

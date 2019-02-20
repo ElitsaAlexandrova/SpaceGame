@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
-		<File Id="89162789" Language="SFX">
-			<ShortName>Laser.wav</ShortName>
-			<Path>SFX\Laser_D1A78FE7.wem</Path>
+		<File Id="598831122" Language="SFX">
+			<ShortName>Vasy\Laser\Laser_Loop.wav</ShortName>
+			<Path>SFX\Vasy\Laser\Laser_Loop_9B8C947F.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -103,29 +103,29 @@
 			<IncludedEvents>
 				<Event Id="1132348419" Name="Play_Explosion_1" ObjectPath="\Events\Vasilena\Play_Explosion_1"/>
 				<Event Id="1132348416" Name="Play_Explosion_2" ObjectPath="\Events\Vasilena\Play_Explosion_2"/>
+				<Event Id="245716756" Name="Play_Laser_Fast" ObjectPath="\Events\Vasilena\Play_Laser_Fast"/>
 				<Event Id="1256693076" Name="Play_Laser_Loop" ObjectPath="\Events\Vasilena\Play_Laser_Loop"/>
-				<Event Id="73225255" Name="Play_Laser_SingleShot_Fast" ObjectPath="\Events\Vasilena\Play_Laser_SingleShot_Fast"/>
-				<Event Id="839400446" Name="Play_Laser_SingleShot_Slow" ObjectPath="\Events\Vasilena\Play_Laser_SingleShot_Slow"/>
+				<Event Id="426871253" Name="Play_Laser_Slow" ObjectPath="\Events\Vasilena\Play_Laser_Slow"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
-				<File Id="89162789"/>
+				<File Id="598831122"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="130709047" Language="SFX">
-					<ShortName>Expl.wav</ShortName>
-					<Path>SFX\Expl_AF8E7DB8.wem</Path>
+				<File Id="229891543" Language="SFX">
+					<ShortName>Vasy\Explosions\Explosion_2.wav</ShortName>
+					<Path>SFX\Vasy\Explosions\Explosion_2_F61B31DA.wem</Path>
 				</File>
-				<File Id="598120364" Language="SFX">
-					<ShortName>Laser.wav</ShortName>
-					<Path>SFX\Laser_92008A4C.wem</Path>
+				<File Id="506461596" Language="SFX">
+					<ShortName>Vasy\Laser\Laser_Fast.wav</ShortName>
+					<Path>SFX\Vasy\Laser\Laser_Fast_025A7EF4.wem</Path>
 				</File>
-				<File Id="664595452" Language="SFX">
-					<ShortName>Expl3.wav</ShortName>
-					<Path>SFX\Expl3_ABC00736.wem</Path>
+				<File Id="814518325" Language="SFX">
+					<ShortName>Vasy\Laser\Laser_Slow.wav</ShortName>
+					<Path>SFX\Vasy\Laser\Laser_Slow_588823F4.wem</Path>
 				</File>
-				<File Id="733114827" Language="SFX">
-					<ShortName>Laser.wav</ShortName>
-					<Path>SFX\Laser_6CA68204.wem</Path>
+				<File Id="1059674471" Language="SFX">
+					<ShortName>Vasy\Explosions\Explosion_1.wav</ShortName>
+					<Path>SFX\Vasy\Explosions\Explosion_1_2F4BFADB.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
