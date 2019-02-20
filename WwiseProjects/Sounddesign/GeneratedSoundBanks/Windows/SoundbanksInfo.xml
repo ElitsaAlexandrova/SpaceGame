@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -31,68 +31,63 @@
 			<ShortName>Dimitar</ShortName>
 			<Path>Dimitar.bnk</Path>
 			<IncludedEvents>
+				<Event Id="375022323" Name="LaserGuns_SingleShot_Fast" ObjectPath="\Events\Dimitar\LaserGuns_SingleShot_Fast"/>
+				<Event Id="2081957805" Name="LaserGuns_SingleShot_Med" ObjectPath="\Events\Dimitar\LaserGuns_SingleShot_Med"/>
+				<Event Id="2450637218" Name="LaserGuns_SingleShot_Slow" ObjectPath="\Events\Dimitar\LaserGuns_SingleShot_Slow"/>
 				<Event Id="4030404899" Name="Play_Explosion" ObjectPath="\Events\Dimitar\Play_Explosion"/>
-				<Event Id="2131440092" Name="Play_LaserGun_Burst" ObjectPath="\Events\Dimitar\Play_LaserGun_Burst"/>
-				<Event Id="1848834034" Name="Play_LaserGuns_SingleShot_Fast" ObjectPath="\Events\Dimitar\Play_LaserGuns_SingleShot_Fast"/>
-				<Event Id="4197312714" Name="Play_LaserGuns_SingleShot_Med" ObjectPath="\Events\Dimitar\Play_LaserGuns_SingleShot_Med"/>
-				<Event Id="302319935" Name="Play_LaserGuns_SingleShot_Slow" ObjectPath="\Events\Dimitar\Play_LaserGuns_SingleShot_Slow"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="18763452" Language="SFX">
-					<ShortName>2.wav</ShortName>
-					<Path>SFX\2_D0145EC9.wem</Path>
-				</File>
-				<File Id="166491134" Language="SFX">
-					<ShortName>1.wav</ShortName>
-					<Path>SFX\1_E1EDDD76.wem</Path>
-				</File>
-				<File Id="196996465" Language="SFX">
-					<ShortName>3.wav</ShortName>
-					<Path>SFX\3_497D48E1.wem</Path>
-				</File>
-				<File Id="269991564" Language="SFX">
-					<ShortName>4.wav</ShortName>
-					<Path>SFX\4_525004DF.wem</Path>
-				</File>
-				<File Id="325771014" Language="SFX">
-					<ShortName>2.wav</ShortName>
-					<Path>SFX\2_342A29F2.wem</Path>
+				<File Id="171469826" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_03.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_03_92A6B5AC.wem</Path>
 				</File>
 				<File Id="337727780" Language="SFX">
 					<ShortName>Mitko\Explosion.wav</ShortName>
 					<Path>SFX\Mitko\Explosion_D35BE926.wem</Path>
 				</File>
-				<File Id="416369252" Language="SFX">
-					<ShortName>4.wav</ShortName>
-					<Path>SFX\4_09B42B94.wem</Path>
+				<File Id="393776479" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_02.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_02_2AFF69E7.wem</Path>
 				</File>
-				<File Id="469081662" Language="SFX">
-					<ShortName>1.wav</ShortName>
-					<Path>SFX\1_155667E8.wem</Path>
+				<File Id="432301093" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_01.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Slow\Laser_01_D35BE926.wem</Path>
 				</File>
-				<File Id="717691807" Language="SFX">
-					<ShortName>4.wav</ShortName>
-					<Path>SFX\4_5913C9C0.wem</Path>
+				<File Id="453499970" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_02.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_02_01E910AC.wem</Path>
 				</File>
-				<File Id="731284179" Language="SFX">
-					<ShortName>1.wav</ShortName>
-					<Path>SFX\1_3C0B3389.wem</Path>
+				<File Id="505763473" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_03.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_03_105E0188.wem</Path>
 				</File>
-				<File Id="794143427" Language="SFX">
-					<ShortName>3.wav</ShortName>
-					<Path>SFX\3_0D8E7A24.wem</Path>
+				<File Id="512823469" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_01.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_01_E2B71BFB.wem</Path>
 				</File>
-				<File Id="811431803" Language="SFX">
-					<ShortName>3.wav</ShortName>
-					<Path>SFX\3_FD01A346.wem</Path>
+				<File Id="538062269" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_02.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Slow\Laser_02_D35BE926.wem</Path>
 				</File>
-				<File Id="861336501" Language="SFX">
-					<ShortName>4.wav</ShortName>
-					<Path>SFX\4_F5F1F8AF.wem</Path>
+				<File Id="589892523" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_04.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_04_74EC0CA3.wem</Path>
 				</File>
-				<File Id="868756267" Language="SFX">
-					<ShortName>2.wav</ShortName>
-					<Path>SFX\2_05DD74D0.wem</Path>
+				<File Id="764830009" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_01.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_01_00423BB6.wem</Path>
+				</File>
+				<File Id="891039992" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_03.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Slow\Laser_03_D35BE926.wem</Path>
+				</File>
+				<File Id="925973680" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_04.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Slow\Laser_04_D35BE926.wem</Path>
+				</File>
+				<File Id="1020287583" Language="SFX">
+					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_04.wav</ShortName>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_04_F5CF84DE.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
