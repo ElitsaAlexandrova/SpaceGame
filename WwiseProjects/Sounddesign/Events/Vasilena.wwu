@@ -3,20 +3,6 @@
 	<Events>
 		<WorkUnit Name="Vasilena" ID="{E46CF248-F74C-498A-B639-09921EE59E0E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Explosion_1" ID="{ADCAFE37-9D1B-4E1D-837D-DC552E958F65}">
-					<ChildrenList>
-						<Action Name="" ID="{0B4B8BED-68DD-49D5-976B-32BE35918DA7}" ShortID="312200007">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Explosion_1" ID="{2F9D6C15-7B07-44F2-960F-5F6916C28ECD}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Laser_Fast" ID="{947B19ED-31DD-41BC-A061-BB00C3107854}">
 					<ChildrenList>
 						<Action Name="" ID="{42B7ADC2-6019-4418-BEC6-F8EA33DBFDD3}" ShortID="454167086">
@@ -59,20 +45,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Explosion_2" ID="{97555210-AAA3-4695-8408-63120719A930}">
-					<ChildrenList>
-						<Action Name="" ID="{14023443-35EA-4F96-9B32-32C8E7595AB6}" ShortID="48500096">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Explosion_2" ID="{50E811EC-194F-463C-BBE9-59D695D0BCBB}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Stop_Laser_Loop" ID="{7740AAE3-C2FB-4E45-8A40-3DBE39CA47F6}">
 					<ChildrenList>
 						<Action Name="" ID="{708A6A1D-CD8C-430F-B2D7-D780AB6D36B8}" ShortID="222293209">
@@ -92,6 +64,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Laser_Fast" ID="{3545A7EC-0F95-4F8E-9561-E3A75AEE1A4B}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Explosion_01" ID="{9D279B91-78AA-40E4-9A05-07CEEB84263B}">
+					<ChildrenList>
+						<Action Name="" ID="{7E3F5FD3-7F2A-46C8-AAFC-2A7CAB2AD812}" ShortID="259472845">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion_1" ID="{F92CDE74-FB75-414A-A5BC-364D37A6B59E}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Explosion_02" ID="{738B767E-753B-49EC-9920-404852451513}">
+					<ChildrenList>
+						<Action Name="" ID="{910BD43B-3C4D-44E3-A5B3-D416EA361FE2}" ShortID="734672199">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion_2" ID="{05B18741-6400-4375-9172-99CB207EA1B9}" WorkUnitID="{D2D4130C-841D-4B66-B6D4-535B2619230C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

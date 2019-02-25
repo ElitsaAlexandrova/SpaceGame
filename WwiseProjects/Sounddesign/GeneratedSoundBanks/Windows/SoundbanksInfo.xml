@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
-		<SourceFilesRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\</ProjectRoot>
+		<SourceFilesRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
 		<File Id="598831122" Language="SFX">
 			<ShortName>Vasy\Laser\Laser_Loop.wav</ShortName>
-			<Path>SFX\Vasy\Laser\Laser_Loop_9B8C947F.wem</Path>
+			<Path>SFX\Vasy\Laser\Laser_Loop_1290620F.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -39,7 +39,7 @@
 			<IncludedMemoryFiles>
 				<File Id="171469826" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_03.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_03_92A6B5AC.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_03_8E54E826.wem</Path>
 				</File>
 				<File Id="337727780" Language="SFX">
 					<ShortName>Mitko\Explosion.wav</ShortName>
@@ -47,7 +47,7 @@
 				</File>
 				<File Id="393776479" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_02.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_02_2AFF69E7.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_02_8213FD90.wem</Path>
 				</File>
 				<File Id="432301093" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_01.wav</ShortName>
@@ -55,15 +55,15 @@
 				</File>
 				<File Id="453499970" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_02.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_02_01E910AC.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_02_CA9C6B34.wem</Path>
 				</File>
 				<File Id="505763473" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_03.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_03_105E0188.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_03_18376653.wem</Path>
 				</File>
 				<File Id="512823469" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_01.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_01_E2B71BFB.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_01_DD14E374.wem</Path>
 				</File>
 				<File Id="538062269" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_02.wav</ShortName>
@@ -71,11 +71,11 @@
 				</File>
 				<File Id="589892523" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Fast\Laser_04.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_04_74EC0CA3.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Fast\Laser_04_5D662297.wem</Path>
 				</File>
 				<File Id="764830009" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_01.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_01_00423BB6.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_01_1523EF7B.wem</Path>
 				</File>
 				<File Id="891039992" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Slow\Laser_03.wav</ShortName>
@@ -87,7 +87,7 @@
 				</File>
 				<File Id="1020287583" Language="SFX">
 					<ShortName>Mitko\Play_LaserGuns_SingleShot_Med\Laser_04.wav</ShortName>
-					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_04_F5CF84DE.wem</Path>
+					<Path>SFX\Mitko\Play_LaserGuns_SingleShot_Med\Laser_04_D27949A6.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -96,8 +96,8 @@
 			<ShortName>Vasilena</ShortName>
 			<Path>Vasilena.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1132348419" Name="Play_Explosion_1" ObjectPath="\Events\Vasilena\Play_Explosion_1"/>
-				<Event Id="1132348416" Name="Play_Explosion_2" ObjectPath="\Events\Vasilena\Play_Explosion_2"/>
+				<Event Id="1103433495" Name="Play_Explosion_01" ObjectPath="\Events\Vasilena\Play_Explosion_01"/>
+				<Event Id="1103433492" Name="Play_Explosion_02" ObjectPath="\Events\Vasilena\Play_Explosion_02"/>
 				<Event Id="245716756" Name="Play_Laser_Fast" ObjectPath="\Events\Vasilena\Play_Laser_Fast"/>
 				<Event Id="1256693076" Name="Play_Laser_Loop" ObjectPath="\Events\Vasilena\Play_Laser_Loop"/>
 				<Event Id="426871253" Name="Play_Laser_Slow" ObjectPath="\Events\Vasilena\Play_Laser_Slow"/>
@@ -106,21 +106,21 @@
 				<File Id="598831122"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="229891543" Language="SFX">
-					<ShortName>Vasy\Explosions\Explosion_2.wav</ShortName>
-					<Path>SFX\Vasy\Explosions\Explosion_2_F61B31DA.wem</Path>
-				</File>
 				<File Id="506461596" Language="SFX">
 					<ShortName>Vasy\Laser\Laser_Fast.wav</ShortName>
-					<Path>SFX\Vasy\Laser\Laser_Fast_025A7EF4.wem</Path>
+					<Path>SFX\Vasy\Laser\Laser_Fast_A5990852.wem</Path>
 				</File>
 				<File Id="814518325" Language="SFX">
 					<ShortName>Vasy\Laser\Laser_Slow.wav</ShortName>
-					<Path>SFX\Vasy\Laser\Laser_Slow_588823F4.wem</Path>
+					<Path>SFX\Vasy\Laser\Laser_Slow_C3C166D9.wem</Path>
 				</File>
-				<File Id="1059674471" Language="SFX">
+				<File Id="830039208" Language="SFX">
+					<ShortName>Vasy\Explosions\Explosion_2.wav</ShortName>
+					<Path>SFX\Vasy\Explosions\Explosion_2_FF890093.wem</Path>
+				</File>
+				<File Id="1002596843" Language="SFX">
 					<ShortName>Vasy\Explosions\Explosion_1.wav</ShortName>
-					<Path>SFX\Vasy\Explosions\Explosion_1_2F4BFADB.wem</Path>
+					<Path>SFX\Vasy\Explosions\Explosion_1_7A74C5BE.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

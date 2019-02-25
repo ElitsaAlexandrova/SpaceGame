@@ -1,16 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	245716756	Play_Laser_Fast			\Vasilena\Play_Laser_Fast	
 	426871253	Play_Laser_Slow			\Vasilena\Play_Laser_Slow	
-	1132348416	Play_Explosion_2			\Vasilena\Play_Explosion_2	
-	1132348419	Play_Explosion_1			\Vasilena\Play_Explosion_1	
+	1103433492	Play_Explosion_02			\Vasilena\Play_Explosion_02	
+	1103433495	Play_Explosion_01			\Vasilena\Play_Explosion_01	
 	1256693076	Play_Laser_Loop			\Vasilena\Play_Laser_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	229891543	Explosion_2	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_2_F61B31DA.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_2		13349
-	506461596	Laser_Fast	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Fast_025A7EF4.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Fast		3125
-	814518325	Laser_Slow	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Slow_588823F4.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Slow		7490
-	1059674471	Explosion_1	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_1_2F4BFADB.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_1		8300
+	506461596	Laser_Fast	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Fast_A5990852.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Fast		2508
+	814518325	Laser_Slow	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Slow_C3C166D9.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Slow		3557
+	830039208	Explosion_2	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_2_FF890093.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_2		17889
+	1002596843	Explosion_1	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_1_7A74C5BE.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_1		18182
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	598831122	Laser_Loop	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Loop_9B8C947F.wem	598831122.wem	\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Loop	
+	598831122	Laser_Loop	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Loop_1290620F.wem	598831122.wem	\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Loop	
 

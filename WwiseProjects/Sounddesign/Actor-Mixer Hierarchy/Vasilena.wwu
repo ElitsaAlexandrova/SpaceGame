@@ -26,9 +26,9 @@
 								<AudioFileSource Name="Laser_Fast" ID="{23341E2F-35FA-4D7A-ABE9-03A47E53E0BD}" ShortID="506461596">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="1.37453071219305E-02"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="1.88093676405364E-02"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.312524877719683"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.65905130463572"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.182306178669815"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.298056133380809"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.559216968697488"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Vasy\Laser\Laser_Fast.wav</AudioFile>
@@ -58,8 +58,8 @@
 							<ChildrenList>
 								<AudioFileSource Name="Laser_Loop" ID="{AFF9648F-17E6-4E60-99BA-C81558765DBB}" ShortID="598831122">
 									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="0.296609258946921"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.597559141195505"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.3392920547466"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.491937307521723"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Vasy\Laser\Laser_Loop.wav</AudioFile>
@@ -82,9 +82,9 @@
 								<AudioFileSource Name="Laser_Slow" ID="{53EA4F17-A27E-4C14-B0D7-CF23AB96C507}" ShortID="814518325">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="1.30218699049868E-02"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="4.05124841488478E-02"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.296609258946921"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.23924795262458"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.252479588713355"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.298779570597752"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.710415347038728"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Vasy\Laser\Laser_Slow.wav</AudioFile>
@@ -106,7 +106,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Explosion_1" ID="{2F9D6C15-7B07-44F2-960F-5F6916C28ECD}" ShortID="62962430">
+						<Sound Name="Explosion_1" ID="{F92CDE74-FB75-414A-A5BC-364D37A6B59E}" ShortID="177619377">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
@@ -116,19 +116,32 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Explosion_1" ID="{FA130ACF-F404-4430-8727-5A267306AAB4}" ShortID="1059674471">
+								<AudioFileSource Name="Explosion_1" ID="{7127AE22-5680-4D1E-B6B2-8B519F517B45}" ShortID="172153177">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="2.08780445144081E-02"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.06405022446694E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.32585799312573"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.714101697530863"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.28497231691922"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Vasy\Explosions\Explosion_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1002596843"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Explosion_1" ID="{FA130ACF-F404-4430-8727-5A267306AAB4}" Platform="Linked"/>
+								<ActiveSource Name="Explosion_1" ID="{7127AE22-5680-4D1E-B6B2-8B519F517B45}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Explosion_2" ID="{50E811EC-194F-463C-BBE9-59D695D0BCBB}" ShortID="617420784">
+						<Sound Name="Explosion_2" ID="{05B18741-6400-4375-9172-99CB207EA1B9}" ShortID="367446236">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
@@ -138,17 +151,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Explosion_2" ID="{F3F122BB-834B-470B-8446-1ACB225F20AE}" ShortID="229891543">
+								<AudioFileSource Name="Explosion_2" ID="{B7B9D0B1-D4BA-4FB4-A263-44F8988087B7}" ShortID="830039208">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="1.87907647907648E-02"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.258649350649351"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.31577708907255E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.02893768365473"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.394733126721763"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.849982587236"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Vasy\Explosions\Explosion_2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Explosion_2" ID="{F3F122BB-834B-470B-8446-1ACB225F20AE}" Platform="Linked"/>
+								<ActiveSource Name="Explosion_2" ID="{B7B9D0B1-D4BA-4FB4-A263-44F8988087B7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
