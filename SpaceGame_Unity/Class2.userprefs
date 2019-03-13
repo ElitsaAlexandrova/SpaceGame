@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameOverMenuHandler.cs">
+    <Files>
+      <File FileName="Assets\Scripts\HitReceiver.cs" Line="30" Column="62" />
+      <File FileName="Assets\Scripts\DamageDealer.cs" Line="19" Column="5" />
+      <File FileName="Assets\ScoreLabelHandler.cs" Line="12" Column="58" />
+      <File FileName="Assets\GameOverMenuHandler.cs" Line="4" Column="35" />
+      <File FileName="Assets\GameStateController.cs" Line="32" Column="24" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="12" Column="61" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\TuEs2018Winter\InClassProjects\Lecture4\Class2\Assets\GameStateController.cs" line="4" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
