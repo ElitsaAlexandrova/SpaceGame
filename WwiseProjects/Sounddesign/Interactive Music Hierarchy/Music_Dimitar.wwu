@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}" SchemaVersion="85">
+	<InteractiveMusic>
+		<WorkUnit Name="Music_Dimitar" ID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="MU_DL2_BattleShips" ID="{D6BF5453-0515-4C7F-B02F-33B36CE27F09}" ShortID="152124469">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MU_DL2_BattleShips_Medium" ID="{E71B855C-E8A7-4249-93D0-3AFDAE34BB92}" ShortID="552747160">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="124"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MU_DL2_BattleShips_Medium" ID="{E7FB941C-C66A-493A-9980-773A1DB0980C}" ShortID="858847684">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="145161.291666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MU_DL2_BattleShips_Medium" ID="{AB80B5E7-3AC7-4AF9-9624-E8BB64CD4ED9}" ShortID="227627287">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MU_DL2_BattleShips_Medium" ID="{28CB67DA-8D53-4458-A3E6-E14F6BAEE742}" ShortID="974904003">
+													<Language>SFX</Language>
+													<AudioFile>MU_DL2_BattleShips_Medium.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DA3B153D-E6AD-4950-A1E6-905FF0D883D3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{08BF6D31-D6C2-4C87-A42F-D95CD24F6D9E}">
+													<ClipList>
+														<MusicClip Name="MU_DL2_BattleShips_Medium" ID="{16C1281C-C84E-4CE0-8557-A3218B3848F4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="145161.291666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="MU_DL2_BattleShips_Medium" ID="{28CB67DA-8D53-4458-A3E6-E14F6BAEE742}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C79E1FC7-0CA1-4730-840E-00D2B54BD930}"/>
+										<MusicCue Name="Exit Cue" ID="{32BE1711-9219-4CAC-A143-C7ECAED62D20}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="145161.291666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EEB26B4F-E52A-4613-8772-45A82A15CBD3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5B754E3A-489D-44FB-9775-F30C76A40CA4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{43B582D3-1446-4213-BD41-E1983253EC10}" ShortID="925936458">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B27E89E9-9471-44E0-AC63-B6F4D0583D8A}" ShortID="378796970">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="MU_DL2_BattleShips_Medium" ID="{E7FB941C-C66A-493A-9980-773A1DB0980C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MU_DL2_BattleShips_Hi" ID="{4F282747-3ABD-4AFF-8829-789DD675DBB1}" ShortID="1037360232">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="124"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MU_DL2_BattleShips_Hi" ID="{E78C65C8-106D-4CC5-985E-17AB8263A59F}" ShortID="841820649">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="145161.291666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MU_DL2_BattleShips_Hi" ID="{3E96DF57-C57B-471B-89BB-F54E8BEB3497}" ShortID="742296125">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MU_DL2_BattleShips_Hi" ID="{AB7D4BF5-5C97-493C-91E4-9DA0DF64A8E1}" ShortID="1003223449">
+													<Language>SFX</Language>
+													<AudioFile>MU_DL2_BattleShips_Hi.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{93F110A9-38CB-4DD1-96A7-C7DE1174ADB2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AE1152F1-FC7F-49AF-963F-0CC8AE14528A}">
+													<ClipList>
+														<MusicClip Name="MU_DL2_BattleShips_Hi" ID="{593D788F-55E6-4649-891D-869BEA789C6E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="145161.291666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="MU_DL2_BattleShips_Hi" ID="{AB7D4BF5-5C97-493C-91E4-9DA0DF64A8E1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{EC58D2AE-375E-47AC-AC83-AB8F91F550CB}"/>
+										<MusicCue Name="Exit Cue" ID="{06489C76-01C6-40C2-8645-8FEB81771E19}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="145161.291666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{F1515979-C0EC-4EC1-B699-15A82EB337C4}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CC359199-90C8-4515-9A59-9C29B224E89B}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{47982145-A756-4AFF-B23F-6910EA59F835}" ShortID="735994129">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{861F8810-81CB-444D-8939-9FC79E1F4011}" ShortID="960257199">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="MU_DL2_BattleShips_Hi" ID="{E78C65C8-106D-4CC5-985E-17AB8263A59F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MU_DL2_BattleShips_Low" ID="{74F84087-4586-46F7-97C8-0B2ECD50DD96}" ShortID="341924432">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="124"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MU_DL2_BattleShips_Low" ID="{5A15827D-570E-4B6E-8D3E-C82263E7C460}" ShortID="850294384">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="145161.291666667"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="124"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B747FD06-1E5C-4E3C-B448-AE8DEE101888}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MU_DL2_BattleShips_Low" ID="{E919F139-22BD-4DB5-A410-ECD065D28118}" ShortID="155056272">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFD3BC6A-4B4D-43B5-91C3-A86972A394D6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MU_DL2_BattleShips_Low" ID="{78BEE85C-9D16-4625-8864-B8FF5904C96B}" ShortID="720577218">
+													<Language>SFX</Language>
+													<AudioFile>MU_DL2_BattleShips_Low.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2CEFB817-2E0E-4B6D-AAE9-F1D0F8DF75E1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{252F4F5A-2D84-421F-B6A3-7B4D3CF97E2B}">
+													<ClipList>
+														<MusicClip Name="MU_DL2_BattleShips_Low" ID="{4A3FC034-1EEC-496E-95BC-A97B9376F738}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="145161.291666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="MU_DL2_BattleShips_Low" ID="{78BEE85C-9D16-4625-8864-B8FF5904C96B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D22D2C42-05B5-4805-815E-C20C699DBD8B}"/>
+										<MusicCue Name="Exit Cue" ID="{AE60A719-440B-4948-8449-6FEC0DA3D917}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="145161.291666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A1B24FEB-92A9-404F-9FC7-89AF3B58C79C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{FD654D00-20F0-46F6-B80E-37FFDE477C13}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{8FB16173-0FB5-45C0-BEC4-78E3EF3A8C4D}" ShortID="242247773">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{16E9C325-50FA-42E0-8784-6A92E6FEE8D9}" ShortID="853494073">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="MU_DL2_BattleShips_Low" ID="{5A15827D-570E-4B6E-8D3E-C82263E7C460}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{6C96D247-35B2-4CA7-B0D1-B3827883C0FB}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6ACE7CEA-1D2D-48A3-8167-819F8C7CC119}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{AE8E0412-39DC-4371-9A77-DB1C6D9A7152}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="MU_DL2_BattleShips_Low" ID="{74F84087-4586-46F7-97C8-0B2ECD50DD96}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{66CD281E-0F14-47DC-B92A-7AC5A83373E9}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="MU_DL2_BattleShips_Medium" ID="{E71B855C-E8A7-4249-93D0-3AFDAE34BB92}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="MU_DL2_BattleShips_Low" ID="{74F84087-4586-46F7-97C8-0B2ECD50DD96}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{30FA4253-D231-4474-8EB2-993421DD8DA5}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{9BF89D26-3171-4C11-BC9F-A0A7137F6B68}"/>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{D1B4BFC4-0A49-4C1C-8CF4-19A8FDA65CFE}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="MU_DL2_BattleShips_Hi" ID="{4F282747-3ABD-4AFF-8829-789DD675DBB1}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="MU_DL2_BattleShips_Medium" ID="{E71B855C-E8A7-4249-93D0-3AFDAE34BB92}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{222B140A-7BB5-4D21-9B11-F63FD71BB363}">
+									<PropertyList>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="MU_DL2_BattleShips_Hi" ID="{4F282747-3ABD-4AFF-8829-789DD675DBB1}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="ST_Dl2_BattleShips" ID="{306B1518-F0D3-4DD6-8F94-5603BBF9D236}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="ST_Dl2_BattleShips_Hi" ID="{0F384671-B02A-4976-B24A-10DEC4A89098}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MU_DL2_BattleShips_Hi" ID="{4F282747-3ABD-4AFF-8829-789DD675DBB1}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="ST_Dl2_BattleShips_Low" ID="{EF7FBB1B-D9C7-4DED-BD36-B2604240EE7E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MU_DL2_BattleShips_Low" ID="{74F84087-4586-46F7-97C8-0B2ECD50DD96}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="ST_Dl2_BattleShips_Medium" ID="{FE1946C6-82D4-4A59-AE47-30E84E5F704A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MU_DL2_BattleShips_Medium" ID="{E71B855C-E8A7-4249-93D0-3AFDAE34BB92}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

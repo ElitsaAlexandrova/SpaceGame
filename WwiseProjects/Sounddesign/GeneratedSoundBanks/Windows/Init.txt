@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	664600861	ST_Dl2_BattleShips			\ST_DL2_Music\ST_Dl2_BattleShips	
+
+State	ID	Name	State Group			Notes
+	0	None	ST_Dl2_BattleShips			
+	127709801	ST_Dl2_BattleShips_Hi	ST_Dl2_BattleShips			
+	1790304110	ST_Dl2_BattleShips_Low	ST_Dl2_BattleShips			
+	2642419597	ST_Dl2_BattleShips_Medium	ST_Dl2_BattleShips			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	

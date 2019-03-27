@@ -7,11 +7,9 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Explosion_01" ID="{9D279B91-78AA-40E4-9A05-07CEEB84263B}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Laser_Fast" ID="{947B19ED-31DD-41BC-A061-BB00C3107854}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Explosion_2" ID="{97555210-AAA3-4695-8408-63120719A930}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Laser_Slow" ID="{DF30A695-49E1-46B2-B00E-CFBBDCEC496B}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Explosion_02" ID="{738B767E-753B-49EC-9920-404852451513}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Laser_Loop" ID="{54BFB7C8-9216-4CF6-ADC6-531D84D138DD}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Explosion_1" ID="{ADCAFE37-9D1B-4E1D-837D-DC552E958F65}" WorkUnitID="{E46CF248-F74C-498A-B639-09921EE59E0E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

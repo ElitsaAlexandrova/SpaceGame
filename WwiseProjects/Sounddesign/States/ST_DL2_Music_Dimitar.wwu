@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8773E0CD-251C-425B-914A-9E6816824FC0}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="ST_DL2_Music_Dimitar" ID="{8773E0CD-251C-425B-914A-9E6816824FC0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="ST_Dl2_BattleShips" ID="{306B1518-F0D3-4DD6-8F94-5603BBF9D236}">
+					<ChildrenList>
+						<State Name="None" ID="{755488E6-6846-4813-B29E-DB334C916AEF}"/>
+						<State Name="ST_Dl2_BattleShips_Hi" ID="{0F384671-B02A-4976-B24A-10DEC4A89098}"/>
+						<State Name="ST_Dl2_BattleShips_Medium" ID="{FE1946C6-82D4-4A59-AE47-30E84E5F704A}"/>
+						<State Name="ST_Dl2_BattleShips_Low" ID="{EF7FBB1B-D9C7-4DED-BD36-B2604240EE7E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

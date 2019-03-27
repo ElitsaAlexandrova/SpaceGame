@@ -9,6 +9,10 @@
 						<ObjectRef Name="Play_Explosion" ID="{2C93C168-0DF3-42BF-96C9-CEFAE5C95261}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LaserGuns_SingleShot_Fast" ID="{5B5E7756-A102-4334-9FD7-C6D40EB17B31}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LaserGuns_SingleShot_Slow" ID="{B76199C0-B727-46D1-8B84-3CB06A127118}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MU_DL2_Battleship" ID="{75FC0BF0-6CED-47E8-ADDD-1EEC60895B26}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_Dimitar" ID="{6F67A6CE-94F4-4ACE-9B94-43505E3BA615}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_MU_DL2_Battleship" ID="{8B0E0033-3DBB-4B72-8F6C-C7B0B4397ABD}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Dimitar" ID="{B177987B-4863-4EDC-B8B1-2BAB03D2FF67}" WorkUnitID="{7AB3D9C4-E2AA-4229-8A42-03100B7E6546}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

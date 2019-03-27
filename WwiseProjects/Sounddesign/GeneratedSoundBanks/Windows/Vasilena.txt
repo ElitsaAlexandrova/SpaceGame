@@ -6,11 +6,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1256693076	Play_Laser_Loop			\Vasilena\Play_Laser_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	506461596	Laser_Fast	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Fast_A5990852.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Fast		2508
-	814518325	Laser_Slow	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Slow_C3C166D9.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Slow		3557
-	830039208	Explosion_2	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_2_FF890093.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_2		17889
-	1002596843	Explosion_1	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_1_7A74C5BE.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_1		18182
+	506461596	Laser_Fast	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Fast_F515AB0A.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Fast		2508
+	814518325	Laser_Slow	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Slow_C7946C10.wem		\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Slow		3557
+	830039208	Explosion_2	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_2_48EDF71E.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_2		17889
+	1002596843	Explosion_1	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Explosions\Explosion_1_AEF392C7.wem		\Actor-Mixer Hierarchy\Vasilena\Explosions\Explosion_1		18182
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	598831122	Laser_Loop	E:\Project\GitHub\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Loop_1290620F.wem	598831122.wem	\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Loop	
+	598831122	Laser_Loop	B:\UBISOFT\SpaceGame\WwiseProjects\Sounddesign\.cache\Windows\SFX\Vasy\Laser\Laser_Loop_A8CC9ECE.wem	598831122.wem	\Actor-Mixer Hierarchy\Vasilena\LazerGuns\Laser_Loop	
 

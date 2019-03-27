@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7DD2F53A-3912-4E43-BCE1-BE29D1440010}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MU_DL2_BattleShips" ID="{C05F2F39-7F24-45FB-A896-F507982EBBDA}">
+					<ChildrenList>
+						<Action Name="" ID="{0FC42E22-C40E-458D-8D3B-123EBAC88305}" ShortID="843102894">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MU_DL2_BattleShips" ID="{D6BF5453-0515-4C7F-B02F-33B36CE27F09}" WorkUnitID="{66C24D31-CCA7-4B70-AA36-EBA8BA522927}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
